@@ -1,0 +1,153 @@
+body {
+  /* background: rgb(162, 227, 246, 0.4); */
+  background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700352779.jpg);
+  background-size: cover;
+  text-transform: capitalize;
+  font-size: 1.15em;
+  text-align: justify;
+  color: rgb(217, 207, 207);
+  font-family: "lato", sans-serif
+}
+
+#title {
+  font-family: "Source+Sans+Pro", sans-serif;
+  font-size: 35px;
+  font-style: oblique;
+  text-transform:inherit;
+  text-align: center;
+  color: rgb(254, 170, 73);
+  /* font-weight: 800; */
+  
+}
+
+.subtitle-1 {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(201, 145, 54);
+}
+
+#img-2 {
+  height: 200px;
+  width: 400px;
+  border: 5px double rgb(58, 118, 8);
+  margin-top: 10px;
+  /* float: right; */
+  
+  
+}
+
+#img-1 {
+  height: 350px;
+  width: 35%;
+
+  border: 6px solid rgb(16, 130, 147);
+  margin: 5px 50px;
+  float: right;
+  
+
+}
+
+.para {
+  /* font-family: cursive;  */
+  font-style: oblique;
+  color: rgb(213, 171, 108);
+}
+
+/* ul > li {
+color: blue;
+} */
+
+/* ul li {
+  color: red;
+} */
+
+li:first-child {
+  color: rgb(42, 165, 44);
+}
+
+li:nth-last-child(2) {
+  color: blueviolet;
+}
+
+li:last-child {
+  color: rgb(181, 192, 84);
+}
+
+.gg-google {
+  margin-bottom: 15px;
+
+}
+
+
+h2 + a {
+  color: rgb(30, 114, 11);
+}
+
+textarea ~ button {
+  color: red;
+}
+
+/* img[src^="../img/"] {
+  border: 10px solid black; 
+}
+
+img[src*="../img/"] {
+  border: 10px solid black; 
+} */
+
+/* h2[class~=subtitle-1] {
+  background: green
+} */
+
+/* h2[class|=subtitle-1] {
+  background: green
+} */
+
+.table-1 {
+  /* display: inline-block;  */
+  /* float: inherit; */
+  margin-bottom: 10px;
+}
+
+.container {
+
+  background-color: white;
+  margin: 10px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center; 
+  
+
+  /* style="order: (usually a number);" */
+  /* align-items: baseline;         (aline to the baseline) */ 
+  /* align-items: flex-start;        (top of the flex box)*/
+  /* align-items: flex-end;        (bottom: of the flex box) */
+  /* justify-content: space-between;
+  justify-content: center;
+  justify-content: flex-end;
+  justify-content: flex-start; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: nowrap; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+
+  
+}
+
+.container-item {
+
+   background-color: rgb(36, 130, 39);
+   color: white;
+   font-size: 25px;
+   text-align: center;
+
+   width: 70px;
+   line-height: 50px;
+   margin: 10px;
+
+}
