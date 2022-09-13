@@ -11,23 +11,22 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Source+Sans+Pro:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/" />
-    <link href="../css/google.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./google.css" />
 
     <title>My Website</title>
   </head>
   <body>
     <h1 id="title">My Website</h1>
 
-    <h2 class="subtitle-1">About Me</h2>
+    <h2 class="subtitle-1" id="subtitle-1">About Me</h2>
 
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
     </p>
 
-    <img id="img-1" src="../img/img-1.jpg" />
+    <img id="img-1" src="./img-1.jpg" />
 
     <div>
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -79,40 +78,40 @@
       </tbody>
     </table>
 
-    <img id="img-2" src="../img/img-2.jpg" />
+    <img id="img-2" src="./img-2.jpg" />
 
     <div class="container">
       <div
         class="container-item"
-        style="order: 4; flex-grow: 1; flex-shrink: 1; flex-basis: 100px"
+        style="order: 4; flex: 1 1 100px; align-self: center"
       >
         A
       </div>
 
       <div
         class="container-item"
-        style="order: 3; flex-grow: 1; flex-shrink: 1; flex-basis: 100px"
+        style="order: 3; flex: 1 1 100px; align-self: flex-end"
       >
         B
       </div>
 
       <div
         class="container-item"
-        style="order: 5; flex-grow: 5; flex-shrink: 3; flex-basis: 100px"
+        style="order: 5; flex: 1 1 100px; align-self: flex-start"
       >
         C
       </div>
 
       <div
         class="container-item"
-        style="order: 1; flex-grow: 1; flex-shrink: 1; flex-basis: 100px"
+        style="order: 1; flex: 1 1 100px; align-self: flex-start"
       >
         D
       </div>
 
       <div
         class="container-item"
-        style="order: 2; flex-grow: 1; flex-shrink: 1; flex-basis: 100px"
+        style="order: 2; flex: 1 1 100px; align-self: flex-center"
       >
         E
       </div>
@@ -124,13 +123,65 @@
 		 <div class="container-item">J</div> -->
     </div>
 
-    <h2 class="subtitle-1">Contact Us</h2>
+    <div class="grid-container">
+      <div
+        class="grid-item"
+        style="background: rgb(213, 8, 196); grid-area: 1 / 2 / span 1 / span 2"
+      >
+        1
+      </div>
+      <div
+        class="grid-item"
+        style="
+          background: rgb(178, 178, 14);
+          grid-area: 1 / 40 / span 1 / span 2;
+        "
+      >
+        2
+      </div>
+      <div
+        class="grid-item"
+        style="
+          background: rgb(106, 52, 14);
+          grid-area: 2 / 20 / span 1 / span 2;
+        "
+      >
+        3
+      </div>
+      <div
+        class="grid-item"
+        style="background: rgb(29, 29, 182); grid-area: 4 / 2 / span 1 / span 2"
+      >
+        4
+      </div>
+      <div
+        class="grid-item"
+        style="
+          background: rgb(16, 202, 90);
+          grid-area: 3 / 20 / span 1 / span 2;
+        "
+      >
+        5
+      </div>
+      <div
+        class="grid-item"
+        style="
+          background: rgb(204, 46, 18);
+          grid-area: 4 / 40 / span 1 / span 2;
+        "
+      >
+        6
+      </div>
+    </div>
 
-    <form>
-      <input type="text" placeholder="Full Name" />
-      <input type="email" placeholder="Email" />
-      <textarea></textarea>
-      <button>Submit</button>
-    </form>
+    <h2 class="subtitle-1">Contact Us</h2>
+    <div class="form-wrapper">
+      <form>
+        <input type="text" placeholder="Full Name" class="form-input" />
+        <input type="email" placeholder="Email" class="form-input" />
+        <textarea>How can we best assist you?</textarea>
+        <button class="submit-button">Submit</button>
+      </form>
+    </div>
   </body>
 </html>
